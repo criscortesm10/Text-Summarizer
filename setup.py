@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Text-Summarizer"
 AUTHOR_USER_NAME = "criscortesm10"
-SRC_REPO = "Text-Summarizer"
+SRC_REPO = "textSummarizer"
 AUTHOR_EMAIL = "criscortesm10@gmail.com"
 
 setuptools.setup(
@@ -20,8 +20,8 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{SRC_REPO}",
-    packages=setuptools.find_packages(where="src"),
     package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src"),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
